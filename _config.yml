@@ -1,6 +1,6 @@
 title: Ping's blog
 description: Something
-url: "https://blog.pingwu.me"
+url: https://blog.pingwu.me
 user: "Ping"
 baseurl: /
 permalink: /:title

@@ -1,16 +1,32 @@
 title: Ping's blog
-description: Something
-url: https://blog.pingwu.me
-user: "Ping"
+description: "None"
+author:
+  name: "wp"
+  email: "mail@pingwu.me"
+  url: "https://blog.ping.me"
+
 baseurl: /
+
+source: .
+destination: ./_site
 permalink: /:title
 paginate: 3
 paginate_path: /page/:num/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
 future: true
 plugins:
-  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
-exclue:
-  - README.md
-theme: jekyll-theme-hacker
+
+# Custom variables
+owner : "p"
+year : "2022"

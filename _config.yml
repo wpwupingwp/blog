@@ -26,13 +26,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
-<<<<<<< HEAD
-
-# Custom variables
 owner : "p"
 year : "2022"
-=======
 exclue:
   - README.md
-theme: jekyll-theme-slate
->>>>>>> e7000f9b0012ac98da98b8ad22f1e32bcfd028b6

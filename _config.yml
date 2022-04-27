@@ -1,1 +1,12 @@
+title: Ping's blog
+description: Something
+url: "https://blog.pingwu.me"
+user: "Ping"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+exclue:
+  - README.md
+permalink: /:year/:month/:day/:title
 theme: jekyll-theme-hacker

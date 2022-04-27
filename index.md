@@ -1,6 +1,3 @@
-layout: page
-title: Test
-permalink: /
 ## Hello world
 Blog built with Github Pages.
 ## Test
